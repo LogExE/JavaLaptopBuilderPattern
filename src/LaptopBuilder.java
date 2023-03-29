@@ -6,38 +6,44 @@ public class LaptopBuilder {
         return new Laptop(this);
     }
 
-    public void setBrand(String brand)  {
+    public LaptopBuilder setBrand(String brand)  {
         this.brand = brand;
+        return this;
     }
     public String getBrand()  {
          return brand;
     }
-    public void setCpu(String cpu) {
+    public LaptopBuilder setCpu(String cpu) {
         this.cpu = cpu;
+        return this;
     }
     public String getCpu()  {
         return cpu;
     }
-    public void setGpu(String gpu) {
+    public LaptopBuilder setGpu(String gpu) {
         this.gpu = gpu;
+        return this;
     }
     public String getGpu()  {
         return gpu;
     }
-    public void setProdYear(int year) {
+    public LaptopBuilder setProdYear(int year) {
         this.year = year;
+        return this;
     }
     public int getProdYear()  {
         return year;
     }
-    public void setRAM(int ram) {
+    public LaptopBuilder setRAM(int ram) {
         this.ram = ram;
+        return this;
     }
     public int getRAM()  {
         return ram;
     }
-    public void setROM(int rom) {
+    public LaptopBuilder setROM(int rom) {
         this.rom = rom;
+        return this;
     }
     public int getROM()  {
         return rom;
